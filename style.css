@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,300;0,400;0,500;1,400&family=Permanent+Marker&family=Roboto:wght@300&family=Rubik+Moonrocks&family=Source+Sans+Pro:wght@200;600&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    /*Center the body content by initializing flexbox*/
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    /*section width is hard coded. May need to update for mobile view*/
+    width: 600px;
+}
+
+h1{
+    font-size: 2.5rem;
+    line-height: 1.05;
+    text-align: left;
+}
+p{
+    font-size: 2.5rem;
+    line-height: 1.05;
+}
