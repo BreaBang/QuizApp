@@ -11,25 +11,25 @@ const questions = [
                 text: "Part-Time Away From Home",
                 image: "https://images.unsplash.com/photo-1511421616335-5a9846f1afcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80",
                 alt: "Close up photo of a brown hands carrying a tray of food containing an organge drink in a clear glass, a hamburger and a basket of fries.",
-                credit: "Bimo Luki, Unsplash"
+                credit: "Bimo Luki"
             },
             {
                 text: "Full-Time Away From Home",
                 image: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZG9jdG9yfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
                 alt: "Photo of lab technician processing samples and other masked people in PPE working behind her.",
-                credit: "Jason Goodman, Unsplash"
+                credit: "Jason Goodman"
             },
             {
                 text: "Part-Time Hybrid/Remote",
                 image: "https://images.unsplash.com/photo-1549637642-90187f64f420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
                 alt: "Photo of a row of empty cubiles with green walls and black empty chairs.",
-                credit: "Kate Sade, Unsplash"
+                credit: "Kate Sade"
             },
             {
                 text: "Full-Time Hybrid/Remote",
                 image: "https://images.unsplash.com/photo-1600195075976-6c1d19c956d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdvcmslMjBmcm9tJTIwaG9tZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60",
                 alt: "Photo of an Asian woman with long black hair and a silver sweater, working on a silver laptop while sitting on a queen-sized bed surrounded by books.",
-                credit: "Windows, Unsplash"
+                credit: "Windows"
             }
         ]
     },
@@ -41,56 +41,56 @@ const questions = [
                 text: "What social life?",
                 image: "https://images.unsplash.com/photo-1611668971858-6c9ccc3ccb5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvdWNoJTIwcmVhZGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
                 alt: "woman with medium length dark hair and brown eyes reading a book with a red cover on a bed with a cup of tea or coffee in a white mug.",
-                credit: "Marga Santoso, Unsplash"
+                credit: "Marga Santoso"
             },
             {
                 text: "Party at my house every week.",
                 image: "https://images.unsplash.com/photo-1642009189383-56dc22a2862d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJvYXJkJTIwZ2FtZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
                 alt: "A photo of four people's hands and legs at a coffee table with a game called Color Brain, game cards and note paper on the table.",
-                credit: "Big Potatoe, Unsplash"
+                credit: "Big Potatoe"
             },
             {
                 text: "Always out doing something.",
                 image: "https://images.unsplash.com/photo-1588286840104-8957b019727f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8eW9nYSUyMGNsYXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
                 alt: "Photo of a yoga class. Students have one knee on the ground in low-lunge and their arms spread out, parrallel to the ground in a twist.",
-                credit: "Dylan Gillin, Unsplash"
+                credit: "Dylan Gillin"
             },
             {
                 text: "Always outdoors.",
                 image: "https://images.unsplash.com/photo-1586627161720-ee2849303aee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cm9jayUyMGNsaW1iaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
                 alt: "Rock climber with his feet on a mountain edge, hands on his rope.",
-                credit: "Patrick Hendry, Unsplash"
+                credit: "Patrick Hendry"
             }
         ]
 
     },
     {
         id: 3,
-        text: "What is your home life life?",
+        text: "Who lives with you?",
         answers: [
             {
                 text: "Just me.",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             },
             {
                 text: "Roomates",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             },
             {
                 text: "Small children in the home.",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             },
             {
                 text: "I live with teens.",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             }
         ]
     },
@@ -100,27 +100,27 @@ const questions = [
         answers: [
             {
                 text: "A couch buddy.",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             },
             {
                 text: "A weekend hiking buddy.",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             },
             {
                 text: "A daily walking buddy.",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             },
             {
                 text: "Someone to come home",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             }
         ]
     },
@@ -131,27 +131,27 @@ const questions = [
         answers: [
             {
                 text: "Nope.",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             },
             {
                 text: "I park as close as possible to entrances wherever I go.",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             },
             {
                 text: "I love it.",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             },
             {
                 text: "I prefer to run, but walking is okay....",
-                image: "https://images.unsplash.com/photo-1543093722-910eed00085f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNob3clMjBjaG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Photo of the Empire State building during daytime",
-                credit: "Canva"
+                image: "",
+                alt: "",
+                credit: ""
             }
         ]
     }//no comma after last object
@@ -184,23 +184,23 @@ const populateQuestions = () => {
         answerImage.setAttribute('src', answer.image)
         answerImage.setAttribute('alt', answer.alt)
 
-        const answerTitle = document.createElement('h3')
-        answerTitle.textContent = answer.text
+        const answerTitle = document.createElement('h3') //creates the h3 title
+        answerTitle.textContent = answer.text //uses the text property from the object
         
-        const answerInfo = document.createElement('p')
-        const imageLink = document.createElement('a')
-        imageLink.setAttribute('href', answer.credit)
-        imageLink.textContent = answer.credit
-        const sourceLink = document.createElement('a')
-        sourceLink.textContent = 'Canva'
-        sourceLink.setAttribute('src', 'https://unsplash.com/s/photos/chow-chow')
-        answerInfo.append(imageLink, ' to ', sourceLink)
+        const answerInfo = document.createElement('p') //creates the p element to display credit
+        const imageLink = document.createElement('a') //creates a link for the image in the credits
+        imageLink.setAttribute('href', answer.credit) 
+        imageLink.textContent = answer.credit //tells where to get the text for the credits
+        const sourceLink = document.createElement('a') //creates a link for the credit text
+        sourceLink.textContent = 'Unsplash'
+        sourceLink.setAttribute('src', 'https://unsplash.com/') //
+        answerInfo.append(imageLink, ' from ', sourceLink)
 
-        answerBlock.append(answerImage, answerTitle, answerInfo)
+        answerBlock.append(answerImage, answerTitle, answerInfo) // makes is show in the browser.
 
-        answersBlock.append(answerBlock)
+        answersBlock.append(answerBlock) //makes is show in the browser.
        })
-       questionDisplay.append(answersBlock)
+       questionDisplay.append(answersBlock) //makes is show in the browser.
     })
 }
 
