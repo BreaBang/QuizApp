@@ -51,7 +51,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 16px 0 23px 0;
+    margin: 16px 0 20px 0;
 }
 
 .answer-block {

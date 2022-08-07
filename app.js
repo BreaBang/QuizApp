@@ -40,7 +40,7 @@ const questions = [
             {
                 text: "What social life?",
                 image: "https://images.unsplash.com/photo-1611668971858-6c9ccc3ccb5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvdWNoJTIwcmVhZGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "woman with medium length dark hair and brown eyes reading a book with a red cover on a bed with a cup of tea or coffee in a white mug.",
+                alt: "Photo of a woman with medium length dark hair and brown eyes reading a book with a red cover on a bed with a cup of tea or coffee in a white mug.",
                 credit: "Marga Santoso"
             },
             {
@@ -58,7 +58,7 @@ const questions = [
             {
                 text: "Always outdoors.",
                 image: "https://images.unsplash.com/photo-1586627161720-ee2849303aee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cm9jayUyMGNsaW1iaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                alt: "Rock climber with his feet on a mountain edge, hands on his rope.",
+                alt: "Photo of a rock climber with his feet on a mountain edge, hands on his rope.",
                 credit: "Patrick Hendry"
             }
         ]
@@ -70,27 +70,27 @@ const questions = [
         answers: [
             {
                 text: "Just me.",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1659482633320-c6068b877e24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHxNVkxOWTc2RGlDQXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of an asian woman with long hair smiling down at a book she is holding in one hand while sitting. She has boxed water in her other hand.",
+                credit: "Boxed Water is Better"
             },
             {
-                text: "Roomates",
-                image: "",
-                alt: "",
-                credit: ""
+                text: "Roomates.",
+                image: "https://images.unsplash.com/photo-1630952588640-0204d5d48021?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnxNVkxOWTc2RGlDQXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a group of four young black men standing in a line across the photo.",
+                credit: "Kingsley Osei-Abrah"
             },
             {
                 text: "Small children in the home.",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1655760476293-81b2b97a40b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxNVkxOWTc2RGlDQXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a black/Latinx appearing man in a yellow shirt smiling while holding a black little girl with braids.",
+                credit: "Sir Manuel"
             },
             {
-                text: "I live with teens.",
-                image: "",
-                alt: "",
-                credit: ""
+                text: "I live with a Senior.",
+                image: "https://images.unsplash.com/photo-1581579438930-a0269719fde7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZWxkZXJseXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a senior white female washing her hands at the sink. Her grey hair is permed. Smiling.",
+                credit: "CDC"
             }
         ]
     },
@@ -99,59 +99,59 @@ const questions = [
         text: "What are you most hoping to get from having a dog?",
         answers: [
             {
-                text: "A couch buddy.",
-                image: "",
-                alt: "",
-                credit: ""
+                text: "Netflix buddy.",
+                image: "https://images.unsplash.com/photo-1567016557389-5246a1940bdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y291Y2h8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of Brown feet in grey sweatpants laying on a couch with a wood frame.",
+                credit: "Inside Weather"
             },
             {
                 text: "A weekend hiking buddy.",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1642826268534-9ad93257c6a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHRyYWlsfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a brown dirt trail flanked by green forest with tall trees.",
+                credit: "Ronan Furuta"
             },
             {
                 text: "A daily walking buddy.",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1616741404398-924a06f48348?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGFya3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of green park in the city. Green grass, tall buildings near by. People walking on the side walk trail.",
+                credit: "Arpad Czapp"
             },
             {
-                text: "Someone to come home",
-                image: "",
-                alt: "",
-                credit: ""
+                text: "Someone to come home.",
+                image: "https://images.unsplash.com/photo-1587279763527-f245f7ccf7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVnfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo in black and white of a woman in a black long sleeve shirt and a bun, hugging herself. Only her back is visible.",
+                credit: "Hala Al-Asadi"
             }
         ]
     },
     {
     
         id: 5,
-        text: "How much do you like walking? (Remember you will be walking the dog 3-4 times a day if you don't have a yard.)",
+        text: "How much do you like walking?",
         answers: [
             {
                 text: "Nope.",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1596057176846-4dfa9a53c9ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bm98ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a small child with long blondish brown hair and blue eyes pointing down frowning.",
+                credit: "Tomas Park"
             },
             {
-                text: "I park as close as possible to entrances wherever I go.",
-                image: "",
-                alt: "",
-                credit: ""
+                text: "I'd drive across the street.",
+                image: "https://images.unsplash.com/photo-1551272997-a3232239ed4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHBhcmtpbmclMjBsb3R8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of the back half of a black sedan car next to a red parking meter.",
+                credit: "Edgar Moran"
             },
             {
                 text: "I love it.",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1609535765688-c2114a1f0e50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2Fsa2luZyUyMHNob2VzfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a man's legs in grey sweatpants standing in the street.",
+                credit: "Dusan Jovic"
             },
             {
-                text: "I prefer to run, but walking is okay....",
-                image: "",
-                alt: "",
-                credit: ""
+                text: "I prefer to run.",
+                image: "https://images.unsplash.com/photo-1576751691889-568b63882cd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cnVubmluZ3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a park trail with a runner in a pink shirt and black leggins running away from the camera.",
+                credit: "Steven Lasrey"
             }
         ]
     }//no comma after last object
