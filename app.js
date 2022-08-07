@@ -165,7 +165,7 @@ const chosenAnswers = []
 const populateQuestions = () => {
     questions.forEach(question => {
         const titleBlock = document.createElement('div') //for each question we are creating a div.
-        titleBlock.id=question.id //giving the div the id of question.id
+        titleBlock.id = question.id //giving the div the id of question.id
         titleBlock.classList.add('title-block') //giving each div the class title-block
         
         //adding h2 question title text
@@ -220,9 +220,22 @@ const handleClick = (questionId, chosenAnswer) => {
     const itemToRemove = unansweredQuestions.indexOf(questionId)
     //remove something from teh array based on the answer//remove something from teh array based on the answer
     if (itemToRemove > -1){
-        unansweredQuestions.splice(itemToRemove, 1) 
+        unansweredQuestions.splice(itemToRemove, 1) //The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 
     }
     console.log(chosenAnswers)
     console.log(unansweredQuestions)
+
+    //disable question blocks
+    disableQuestionBlock(questionId, chosenAnswer)
+    //scroll to top most unanswered question
+    const lowestQuestionId = Math.min(...unansweredQuestions) //math min will return the lowest value from an array
+    location.href = '#' + lowestQuestionId
+
+
+
+    if (!unansweredQuestions.length) {
+        //scroll to answer div
+        //showAnswer()
+    }
 }
