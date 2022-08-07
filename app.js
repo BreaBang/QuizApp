@@ -65,7 +65,7 @@ const questions = [
 
     },
     {
-        id: 3,
+        id: 2,
         text: "Who lives with you?",
         answers: [
             {
@@ -95,7 +95,7 @@ const questions = [
         ]
     },
     {
-        id: 4,
+        id: 3,
         text: "What are you most hoping to get from having a dog?",
         answers: [
             {
@@ -126,7 +126,7 @@ const questions = [
     },
     {
     
-        id: 5,
+        id: 4,
         text: "How much do you like walking?",
         answers: [
             {
@@ -179,7 +179,7 @@ const populateQuestions = () => {
        question.answers.forEach(answer => {
         const answerBlock = document.createElement('div')
         answerBlock.classList.add('answer-block')
-        answerBlock.addEventListener('click', () => handleClick)
+        answerBlock.addEventListener('click', () => handleClick (question.id, answer.text) ) //clicking will pass through the question.id and answer.text here 
         const answerImage = document.createElement('img')
         answerImage.setAttribute('src', answer.image)
         answerImage.setAttribute('alt', answer.alt)
@@ -206,6 +206,7 @@ const populateQuestions = () => {
 
 populateQuestions() //calling the function so the new divs will show on the page
 
-const handleClick = () => {
-    console.log('clicked')
+const handleClick = (questionId, chosenAnswer) => {
+    //if we click on the actual square, we get the question ID and the answer square
+    console.log(questionId, chosenAnswer)
 }
