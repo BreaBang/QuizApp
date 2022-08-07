@@ -276,7 +276,7 @@ const populateQuestions = () => {
         
         const answerInfo = document.createElement('p') //creates the p element to display credit
         const imageLink = document.createElement('a') //creates a link for the image in the credits
-        imageLink.setAttribute('href', answer.credit) 
+        imageLink.setAttribute('href', answer.image) 
         imageLink.textContent = answer.credit //tells where to get the text for the credits
         const sourceLink = document.createElement('a') //creates a link for the credit text
         sourceLink.textContent = 'Unsplash'
@@ -310,6 +310,7 @@ const handleClick = (questionId, chosenAnswer) => {
     location.href = '#' + lowestquestionId
 
     if (!unansweredQuestions.length){
+        location.href = '#answer'
         showAnswer()
     
         //scroll to answer div
@@ -358,7 +359,7 @@ const disableQuestionBlock = (questionId, chosenAnswer) => {
 
    Array.from(currentQuestionBlock.children).forEach(block => {
     if (block.children.item(1).innerText != chosenAnswer) {
-        block.getElementsByClassName.opacity = "50%"
+        block.style.opacity = "50%"
     }
    })
 
