@@ -157,6 +157,11 @@ const questions = [
     }//no comma after last object
 ]
 
+//empty array to hold the unanswered questions
+const unansweredQuestions = []
+//empty array to hold chosen answers once clicked
+const chosenAnswers = []
+
 const populateQuestions = () => {
     questions.forEach(question => {
         const titleBlock = document.createElement('div') //for each question we are creating a div.
@@ -175,6 +180,9 @@ const populateQuestions = () => {
        const answersBlock = document.createElement('div')
        answersBlock.id = question.id + "-questions"
        answersBlock.classList.add('answer-options')
+
+       //When we create the questions, they will go in the unanswered array.
+       unansweredQuestions.push(question.id)
 
        question.answers.forEach(answer => {
         const answerBlock = document.createElement('div')
@@ -207,6 +215,14 @@ const populateQuestions = () => {
 populateQuestions() //calling the function so the new divs will show on the page
 
 const handleClick = (questionId, chosenAnswer) => {
-    //if we click on the actual square, we get the question ID and the answer square
-    console.log(questionId, chosenAnswer)
+    if (unansweredQuestions.includes(questionId))//say we click on question id 0, we click on something there, the code goes, it's included. We can remove it from unanswered questions
+    chosenAnswers.push(chosenAnswer)
+    const itemToRemove = unansweredQuestions.indexOf(questionId)
+    //remove something from teh array based on the answer//remove something from teh array based on the answer
+    if (itemToRemove > -1){
+        unansweredQuestions.splice(itemToRemove, 1) 
+
+    }
+    console.log(chosenAnswers)
+    console.log(unansweredQuestions)
 }
