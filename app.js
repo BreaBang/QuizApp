@@ -156,7 +156,86 @@ const questions = [
         ]
     }//no comma after last object
 ]
-
+//Answer choices array
+const answers = [
+    {
+        combination: ["Part-Time Away From Home", "What social life?", "Just me.","Netflix buddy.", "Nope."],
+        text: "A dog age 7 and up, and certain less energetic smaller breeds would suite you.",
+        image: "https://images.unsplash.com/photo-1596957901846-a0722f546502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlbmNoJTIwYnVsbGRvZ3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a small brown french bull dog on the top edge of a purple sofa couch.",
+        credit: "June Gathercole"
+    },
+    {
+        combination: ["", "", "", ""],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["", "", "", ""],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["", "", "", ""],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["", "", "", ""],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["", "", "", ""],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["", "", "", ""],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["", "", "", ""],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["", "", "", ""],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["", "", "", ""],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["", "", "", ""],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+]
 //empty array to hold the unanswered questions
 const unansweredQuestions = []
 //empty array to hold chosen answers once clicked
@@ -226,16 +305,61 @@ const handleClick = (questionId, chosenAnswer) => {
     console.log(chosenAnswers)
     console.log(unansweredQuestions)
 
-    //disable question blocks
     disableQuestionBlock(questionId, chosenAnswer)
-    //scroll to top most unanswered question
-    const lowestQuestionId = Math.min(...unansweredQuestions) //math min will return the lowest value from an array
-    location.href = '#' + lowestQuestionId
+    const lowestquestionId = Math.min(...unansweredQuestions)
+    location.href = '#' + lowestquestionId
 
-
-
-    if (!unansweredQuestions.length) {
+    if (!unansweredQuestions.length){
+        showAnswer()
+    
         //scroll to answer div
-        //showAnswer()
+        showAnswer()
     }
+}
+
+const showAnswer = () => {
+    let result
+    answers.forEach(answer => {
+        if(
+            chosenAnswers.includes(answer.combination[0])+
+            chosenAnswers.includes(answer.combination[1])+
+            chosenAnswers.includes(answer.combination[2])
+         ) {
+                result = answer
+                return
+            } else if (!result){
+                //default to first answer object
+                result = answers[0]
+            }
+    })
+   
+    //result block
+    const answerBlock = document.createElement('div')
+    answerBlock.classList.add('result-block')
+    const answerTitle = document.createElement('h3')
+    answerTitle.textContent = result.text
+    const answerImage = document.createElement('img')
+    answerImage.setAttribute('src', result.image)
+    answerImage.setAttribute('alt', result.alt)
+
+    //answer result block
+
+    answerBlock.append(answerTitle, answerImage)
+    answerDisplay.append(answerBlock)
+    
+    //disable other clicking
+    const allAnswerBlocks =document.querySelectorAll('.answer-block')
+    Array.from(allAnswerBlocks).forEach(answerBlock => answerBlock.replaceWith(answerBlock.cloneNode(true)))
+
+}
+
+const disableQuestionBlock = (questionId, chosenAnswer) => {
+   const currentQuestionBlock = document.getElementById(questionId + "-questions")
+
+   Array.from(currentQuestionBlock.children).forEach(block => {
+    if (block.children.item(1).innerText != chosenAnswer) {
+        block.getElementsByClassName.opacity = "50%"
+    }
+   })
+
 }
