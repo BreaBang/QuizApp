@@ -166,53 +166,53 @@ const answers = [
         credit: "June Gathercole"
     },
     {
-        combination: ["", "", "", ""],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Full-Time Away From Home", "Party at my house every week.", "I live with a Senior.", "Someone to come home.", "I'd drive across the street."],
+        text: "A dog age 7 and up, and certain less energetic smaller breeds would suite you.",
+        image: "https://images.unsplash.com/photo-1596957901846-a0722f546502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlbmNoJTIwYnVsbGRvZ3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a small brown french bull dog on the top edge of a purple sofa couch.",
+        credit: "June Gathercole"
     },
     {
-        combination: ["", "", "", ""],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Part-Time Away From Home", "What social life?", "I live with a Senior.","Netflix buddy.", "Nope."],
+        text: "A dog age 7 and up, and certain less energetic smaller breeds would suite you.",
+        image: "https://images.unsplash.com/photo-1596957901846-a0722f546502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlbmNoJTIwYnVsbGRvZ3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a small brown french bull dog on the top edge of a purple sofa couch.",
+        credit: "June Gathercole"
     },
     {
-        combination: ["", "", "", ""],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Part-Time Away From Home", "What social life?", "I live with a Senior.","Netflix buddy.", "I'd drive across the street."],
+        text: "A dog age 7 and up, and certain less energetic smaller breeds would suite you.",
+        image: "https://images.unsplash.com/photo-1596957901846-a0722f546502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlbmNoJTIwYnVsbGRvZ3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a small brown french bull dog on the top edge of a purple sofa couch.",
+        credit: "June Gathercole"
     },
     {
-        combination: ["", "", "", ""],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Full-Time Hybrid/Remote", "What social life?", "Just me.", "Someone to come home.", "I love it."],
+        text: "Consider a dog 5+ years old, and a less energetic more independent breed like a Chow Chow. They make great apartment dogs because they don't bark.",
+        image: "https://images.unsplash.com/photo-1603031273030-7c70317d9ecd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hvdyUyMGNob3d8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo close up of the face of a sleeping red chow chow with it's eyes close.",
+        credit: "Omid Armin"
     },
     {
-        combination: ["", "", "", ""],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Full-Time Hybrid/Remote", "What social life?", "Just me.", "Someone to come home.", "I'd drive across the street."],
+        text: "Consider a dog 5+ years old, and a less energetic more independent breed like a Chow Chow. They make great apartment dogs because they don't bark.",
+        image: "https://images.unsplash.com/photo-1603031273030-7c70317d9ecd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hvdyUyMGNob3d8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo close up of the face of a sleeping red chow chow with it's eyes close.",
+        credit: "Omid Armin"
     },
     {
-        combination: ["", "", "", ""],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Full-Time Hybrid/Remote", "What social life?", "Roomates.", "Someone to come home.", "I'd drive across the street."],
+        text: "Consider a dog 5+ years old, and a less energetic more independent breed like a Chow Chow. They make great apartment dogs because they don't bark.",
+        image: "https://images.unsplash.com/photo-1603031273030-7c70317d9ecd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hvdyUyMGNob3d8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo close up of the face of a sleeping red chow chow with it's eyes close.",
+        credit: "Omid Armin"
     },
     {
-        combination: ["", "", "", ""],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Full-Time Hybrid/Remote", "Always out doing something.", "Roomates.", "Someone to come home.", "I love it."],
+        text: "Consider a dog 5+ years old, and a less energetic more independent breed like a Chow Chow. They make great apartment dogs because they don't bark.",
+        image: "https://images.unsplash.com/photo-1603031273030-7c70317d9ecd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hvdyUyMGNob3d8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo close up of the face of a sleeping red chow chow with it's eyes close.",
+        credit: "Omid Armin"
     },
     {
         combination: ["", "", "", ""],
@@ -324,7 +324,13 @@ const showAnswer = () => {
         if(
             chosenAnswers.includes(answer.combination[0])+
             chosenAnswers.includes(answer.combination[1])+
-            chosenAnswers.includes(answer.combination[2])
+            chosenAnswers.includes(answer.combination[2])+
+            chosenAnswers.includes(answer.combination[3])+
+            chosenAnswers.includes(answer.combination[4])+
+            chosenAnswers.includes(answer.combination[5])+
+            chosenAnswers.includes(answer.combination[6])+
+            chosenAnswers.includes(answer.combination[7])+
+            chosenAnswers.includes(answer.combination[8])
          ) {
                 result = answer
                 return
