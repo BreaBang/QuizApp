@@ -215,25 +215,81 @@ const answers = [
         credit: "Omid Armin"
     },
     {
-        combination: ["", "", "", ""],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Full-Time Hybrid/Remote", "Always out doing something.", "Roomates.", "A daily walking buddy.", "I love it."],
+        text: "Consider a dog 5+ years old, and a less energetic more independent breed like a Chow Chow. They make great apartment dogs because they don't bark.",
+        image: "https://images.unsplash.com/photo-1603031273030-7c70317d9ecd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hvdyUyMGNob3d8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo close up of the face of a sleeping red chow chow with it's eyes close.",
+        credit: "Omid Armin"
     },
     {
-        combination: ["", "", "", ""],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Full-Time Away From Home", "What social life?", "A daily walking buddy.", "Small children in the home.", "I love it."],
+        text: "Consider a dog 3+ years. You could go with a lively lab or pitbull or maybe an independent chow chow or akita. ",
+        image: "https://images.unsplash.com/photo-1477973770766-6228305816df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl0YnVsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a greyish blue pitbull laying on the side walk, pink tongue out. ",
+        credit: "Christopher Ayme"
     },
     {
-        combination: ["", "", "", ""],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Full-Time Hybrid/Remote", "What social life?", "A daily walking buddy.", "Small children in the home.", "I love it."],
+        text: "Consider a dog 3+ years. You could go with a lively lab or pitbull or maybe an independent chow chow or akita. ",
+        image: "https://images.unsplash.com/photo-1477973770766-6228305816df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl0YnVsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a greyish blue pitbull laying on the side walk, pink tongue out. ",
+        credit: "Christopher Ayme"
+    },
+    {
+        combination: ["Full-Time Hybrid/Remote", "What social life?", "A daily walking buddy.", "Just me.", "I love it."],
+        text: "Consider a dog 3+ years. You could go with a lively lab or pitbull or maybe an independent chow chow or akita. ",
+        image: "https://images.unsplash.com/photo-1477973770766-6228305816df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl0YnVsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a greyish blue pitbull laying on the side walk, pink tongue out. ",
+        credit: "Christopher Ayme"
+    },
+    {
+        combination: ["Full-Time Hybrid/Remote", "What social life?", "Someone to come home.", "Just me.", "I love it."],
+        text: "Consider a dog 3+ years. You could go with a lively lab or pitbull or maybe an independent chow chow or akita. ",
+        image: "https://images.unsplash.com/photo-1477973770766-6228305816df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl0YnVsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a greyish blue pitbull laying on the side walk, pink tongue out. ",
+        credit: "Christopher Ayme"
+    },
+    {
+        combination: ["Full-Time Hybrid/Remote", "What social life?", "A weekend hiking buddy.", "Just me.", "I love it."],
+        text: "Consider a dog 3+ years. You could go with a lively lab or pitbull or maybe an independent chow chow or akita. ",
+        image: "https://images.unsplash.com/photo-1477973770766-6228305816df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl0YnVsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a greyish blue pitbull laying on the side walk, pink tongue out. ",
+        credit: "Christopher Ayme"
+    },
+    {
+        combination: ["Full-Time Hybrid/Remote", "What social life?", "A weekend hiking buddy.", "Just me.", "I prefer to run."],
+        text: "Consider a dog 3+ years. You could go with a lively lab or pitbull or maybe an independent chow chow or akita. ",
+        image: "https://images.unsplash.com/photo-1477973770766-6228305816df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl0YnVsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a greyish blue pitbull laying on the side walk, pink tongue out. ",
+        credit: "Christopher Ayme"
+    },
+    {
+        combination: ["Full-Time Hybrid/Remote", "What social life?", "A daily walking buddy.", "Just me.", "I prefer to run."],
+        text: "Consider a dog 3+ years. You could go with a lively lab or pitbull or maybe an independent chow chow or akita. ",
+        image: "https://images.unsplash.com/photo-1477973770766-6228305816df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl0YnVsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a greyish blue pitbull laying on the side walk, pink tongue out. ",
+        credit: "Christopher Ayme"
+    },
+    {
+        combination: ["Full-Time Away From Home", "What social life?", "A daily walking buddy.", "Just me.", "I prefer to run."],
+        text: "Consider a dog 3+ years. You could go with a lively lab or pitbull or maybe an independent chow chow or akita. ",
+        image: "https://images.unsplash.com/photo-1477973770766-6228305816df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl0YnVsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a greyish blue pitbull laying on the side walk, pink tongue out. ",
+        credit: "Christopher Ayme"
+    },
+    {
+        combination: ["Part-Time Away From Home", "What social life?", "A daily walking buddy.", "Just me.", "I prefer to run."],
+        text: "Consider a dog 3+ years. You could go with a lively lab or pitbull or maybe an independent chow chow or akita. ",
+        image: "https://images.unsplash.com/photo-1477973770766-6228305816df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl0YnVsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a greyish blue pitbull laying on the side walk, pink tongue out. ",
+        credit: "Christopher Ayme"
+    },
+    {
+        combination: ["Part-Time Hybrid/Remote", "What social life?", "A daily walking buddy.", "Just me.", "I prefer to run."],
+        text: "Consider a dog 3+ years. You could go with a lively lab or pitbull or maybe an independent chow chow or akita. ",
+        image: "https://images.unsplash.com/photo-1477973770766-6228305816df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl0YnVsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a greyish blue pitbull laying on the side walk, pink tongue out. ",
+        credit: "Christopher Ayme"
     },
 ]
 //empty array to hold the unanswered questions
@@ -330,10 +386,22 @@ const showAnswer = () => {
             chosenAnswers.includes(answer.combination[5])+
             chosenAnswers.includes(answer.combination[6])+
             chosenAnswers.includes(answer.combination[7])+
-            chosenAnswers.includes(answer.combination[8])
+            chosenAnswers.includes(answer.combination[8])+
+            chosenAnswers.includes(answer.combination[9])+
+            chosenAnswers.includes(answer.combination[10])+
+            chosenAnswers.includes(answer.combination[11])+
+            chosenAnswers.includes(answer.combination[12])+
+            chosenAnswers.includes(answer.combination[13])+
+            chosenAnswers.includes(answer.combination[14])+
+            chosenAnswers.includes(answer.combination[15])+
+            chosenAnswers.includes(answer.combination[16])+
+            chosenAnswers.includes(answer.combination[17])+
+            chosenAnswers.includes(answer.combination[18])+
+            chosenAnswers.includes(answer.combination[19])
+            
          ) {
                 result = answer
-                return
+               
             } else if (!result){
                 //default to first answer object
                 result = answers[0]
