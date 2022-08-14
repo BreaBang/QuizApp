@@ -81,10 +81,8 @@ p{
 }
 
 .result-block{
-    width: 700px;
+    width: 100%;
     background-color: hotpink;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
+    border: solid hotpink 5px;
     
 }

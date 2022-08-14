@@ -388,8 +388,7 @@ const showAnswer = () => {
          ) {
                 result = answer
                
-            } else (!result){
-                //default to first answer object
+            } else if (!result) {                //default to first answer object
                 result = answers[0]
             }
     })
@@ -407,6 +406,8 @@ const showAnswer = () => {
 
     answerBlock.append(answerTitle, answerImage)
     answerDisplay.append(answerBlock)
+
+
     
     //disable other clicking
     const allAnswerBlocks =document.querySelectorAll('.answer-block')
