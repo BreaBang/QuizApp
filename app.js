@@ -383,26 +383,12 @@ const showAnswer = () => {
             chosenAnswers.includes(answer.combination[2])+
             chosenAnswers.includes(answer.combination[3])+
             chosenAnswers.includes(answer.combination[4])+
-            chosenAnswers.includes(answer.combination[5])+
-            chosenAnswers.includes(answer.combination[6])+
-            chosenAnswers.includes(answer.combination[7])+
-            chosenAnswers.includes(answer.combination[8])+
-            chosenAnswers.includes(answer.combination[9])+
-            chosenAnswers.includes(answer.combination[10])+
-            chosenAnswers.includes(answer.combination[11])+
-            chosenAnswers.includes(answer.combination[12])+
-            chosenAnswers.includes(answer.combination[13])+
-            chosenAnswers.includes(answer.combination[14])+
-            chosenAnswers.includes(answer.combination[15])+
-            chosenAnswers.includes(answer.combination[16])+
-            chosenAnswers.includes(answer.combination[17])+
-            chosenAnswers.includes(answer.combination[18])+
-            chosenAnswers.includes(answer.combination[19])
+            chosenAnswers.includes(answer.combination[5])
             
          ) {
                 result = answer
                
-            } else if (!result){
+            } else (!result){
                 //default to first answer object
                 result = answers[0]
             }

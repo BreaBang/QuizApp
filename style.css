@@ -38,12 +38,13 @@ p{
 .title-block{
     width: 600px;
     height: 100px;
-    background-color: rgb(102,96,221);
+    background-color: purple;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-content: center;
     color: rgb(255,255,255);
+    text-decoration:;
 }
 
 
@@ -80,7 +81,10 @@ p{
 }
 
 .result-block{
-    width: 600px;
+    width: 700px;
     background-color: hotpink;
     border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
