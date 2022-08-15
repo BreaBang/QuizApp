@@ -69,6 +69,7 @@ p{
 .answer-block img{
     width: 100%;
     height: 220px;
+    overflow: hidden;
 }
 
 .answer-block p{
@@ -81,8 +82,13 @@ p{
 }
 
 .result-block{
-    width: 100%;
     background-color: hotpink;
     border: solid hotpink 5px;
+
     
+}
+
+.result-block img {
+    width: 600px;
+    overflow: hidden;
 }
