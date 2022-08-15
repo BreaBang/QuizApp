@@ -9,27 +9,27 @@ const questions = [
         answers: [ //answer options as objects in an array
             {
                 text: "Taipei",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1614419359944-62858d88a14c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGFpcGVpfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of night time Taipei city street and cross walk which red and white streaks of traffic.",
+                credit: "Yeh Che Wei"
             },
             {
                 text: "London",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1587726480710-003743795e40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9uZG9ufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of London city, a red bus on the street and historical building in the background.",
+                credit: "Arlinda"
             },
             {
                 text: "Mexico City",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1452838269443-c86e6a3134f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWV4aWNvJTIwY2l0eXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of mexico city scape. Daytime. Blue sky.",
+                credit: "Alexis Tostada"
             },
             {
                 text: "Lagos",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1532085755448-a67fd3b518b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGFnb3MlMjBjaXR5fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of Lagos city scape at night with white and blue soft lights.",
+                credit: "Ciarran O'Brien"
             }
         ]
     },
@@ -39,27 +39,27 @@ const questions = [
         answers: [
             {
                 text: "Cake",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of white frosted cake with four layers colored purple, oragne, yellow and puruple and fondant stars on-top.",
+                credit: "Annie Spratt"
             },
             {
                 text: "Tart",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1578294178279-bb0fac077249?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFydHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a blueberry tart with a yellow custard.",
+                credit: "Raphael Maksian"
             },
             {
                 text: "Pie",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1572383672419-ab35444a6934?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGllfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of an apple pie with a lattice top.",
+                credit: "Danil Aksenov"
             },
             {
                 text: "Cookie",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1449049607083-e29383d58423?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29va2llfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a box of cookies with jam in the middle.",
+                credit: "Tanaphong Toochinda"
             }
         ]
 
@@ -70,27 +70,27 @@ const questions = [
         answers: [
             {
                 text: "Chow Chow",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1603031273030-7c70317d9ecd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNob3clMjBjaG93JTIwZG9nfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo close up of a brown chow chow sleeping.",
+                credit: "Omid Arman"
             },
             {
                 text: "English Bulldog",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1522260448087-a56a0fd5282e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZW5nbGlzaCUyMGJ1bGxkb2d8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a brown and white english bulldog standing up looking to the side of the camera.",
+                credit: "Bryan Hanson"
             },
             {
                 text: "Lab",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1638472495784-a7171c2f5f01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGxhYnJhZG9yfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a black lab in a field walking towards the camera with a yellow frisbee.",
+                credit: "Ilka Lünstäden"
             },
             {
                 text: "Pit Bull",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1608754786631-b8c2a9b4ecaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1139&q=80",
+                alt: "Photo of two blackish brown pitbulls sitting on a chair in christmas sweaters looking at the camera.",
+                credit: "Sandra Seitamaa"
             }
         ]
     },
