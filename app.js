@@ -100,27 +100,27 @@ const questions = [
         answers: [
             {
                 text: "Winter Wonderland",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1603427564019-050e0dbb6e40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdpbnRlciUyMHdvbmRlcmxhbmR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a small town scape covered in snow.",
+                credit: "Despina Galani"
             },
             {
                 text: "Forest",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1596328546171-77e37b5e8b3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZXN0fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a green forest with tall straight trees.",
+                credit: "Nathan Truong"
             },
             {
                 text: "Beach",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1558411005-ea29ca4bba28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+                alt: "Photo of a beach with clean yellow sand and bright blue water.",
+                credit: "Geri Chapple"
             },
             {
                 text: "Mountains",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1601248318256-c7ae64272147?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29sb3JhZG8lMjBtb3VudGFpbnN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo forefront of green pine trees and a big mountain with a snow top in the background.",
+                credit: "Vincent Ledvina"
             }
         ]
     },
@@ -131,27 +131,27 @@ const questions = [
         answers: [
             {
                 text: "Rose",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1455582916367-25f75bfc6710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1127&q=80",
+                alt: "Photo close up of a pink rose.",
+                credit: "Providence Doucet"
             },
             {
                 text: "Tulip",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1618936294058-3f4c8899f178?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+                alt: "Photo of a red tullip opening, green grass background.",
+                credit: "Dominik Scythe"
             },
             {
                 text: "Sunflower",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1646686942323-a03aac4e8c16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHN1biUyMGZsb3dlcnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo of a sunset on a sunflower field, closeup of one big tall flower and a field in the background.",
+                credit: "Jeb Buchman"
             },
             {
                 text: "Daisy",
-                image: "",
-                alt: "",
-                credit: ""
+                image: "https://images.unsplash.com/photo-1592339078319-1f8cc9d67888?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFpc3l8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+                alt: "Photo close up of a white daisy with yellow pollen and a green background.",
+                credit: "Freya Ingva"
             }
         ]
     }//no comma after last object
