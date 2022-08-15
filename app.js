@@ -99,25 +99,25 @@ const questions = [
         text: "Choose a scenery.",
         answers: [
             {
-                text: "",
+                text: "Winter Wonderland",
                 image: "",
                 alt: "",
                 credit: ""
             },
             {
-                text: "",
+                text: "Forest",
                 image: "",
                 alt: "",
                 credit: ""
             },
             {
-                text: "",
+                text: "Beach",
                 image: "",
                 alt: "",
                 credit: ""
             },
             {
-                text: "",
+                text: "Mountains",
                 image: "",
                 alt: "",
                 credit: ""
@@ -127,28 +127,28 @@ const questions = [
     {
     
         id: 4,
-        text: "Choose a plant.",
+        text: "Choose a flower.",
         answers: [
             {
-                text: "",
+                text: "Rose",
                 image: "",
                 alt: "",
                 credit: ""
             },
             {
-                text: "",
+                text: "Tulip",
                 image: "",
                 alt: "",
                 credit: ""
             },
             {
-                text: "",
+                text: "Sunflower",
                 image: "",
                 alt: "",
                 credit: ""
             },
             {
-                text: "",
+                text: "Daisy",
                 image: "",
                 alt: "",
                 credit: ""
@@ -159,28 +159,112 @@ const questions = [
 //Answer choices array
 const answers = [
     {
-        combination: [""],
+        combination: ["Taipei", "Tart", "Chow Chow", "Winter Wonderland", "Rose"],
         text: "",
         image: "",
         alt: "",
         credit: ""
     },
     {
-        combination: [""],
+        combination: ["Taipei", "Cake", "English Bulldog", "Mountains", "Tulip"],
         text: "",
         image: "",
         alt: "",
         credit: ""
     },
     {
-        combination: [""],
+        combination: ["Taipei", "Pie", "Lab", "Forest", "Daisy"],
         text: "",
         image: "",
         alt: "",
         credit: ""
     },
     {
-        combination: [""],
+        combination: ["Taipei", "Cookie", "Pit Bull", "Beach", "Sunflower"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["London", "Tart", "Chow Chow", "Winter Wonderland", "Rose"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["London", "Cake", "English Bulldog", "Mountains", "Tulip"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["London", "Pie", "Lab", "Forest", "Daisy"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["London", "Cookie","Pit Bull", "Beach", "Sunflower"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["Mexico City", "Tart", "Chow Chow", "Winter Wonderland", "Rose"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["Mexico City", "Cake", "English Bulldog", "Mountains", "Tulip"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["Mexico City", "Pie", "Lab", "Forest", "Daisy"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["Mexico City", "Cookie", "Pit Bull", "Beach", "Sunflower", ],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["Lagos", "Tart","Chow Chow", "Winter Wonderland", "Rose"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["Lagos", "Pie", "English Bulldog", "Mountains", "Tulip"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["Lagos", "Tart", "Lab", "Forest", "Daisy"],
+        text: "",
+        image: "",
+        alt: "",
+        credit: ""
+    },
+    {
+        combination: ["Lagos", "Cookie", "Pit Bull", "Beach", "Sunflower"],
         text: "",
         image: "",
         alt: "",
