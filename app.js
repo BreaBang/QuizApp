@@ -159,116 +159,123 @@ const questions = [
 //Answer choices array
 const answers = [
     {
+        combination: ["Taipei", "Tart", "Chow Chow", "Beach", "Daisy"],
+        text: "Rooibos Tea",
+        image: "https://images.unsplash.com/photo-1597318181412-49af291f617f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9vaWJvcyUyMHRlYXxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo close up of a small clear round tea class with no handle holding clear red rooibos tea.",
+        credit: "TeaCora Rooibos"
+    },
+    {
         combination: ["Taipei", "Tart", "Chow Chow", "Winter Wonderland", "Rose"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Green Tea",
+        image: "https://images.unsplash.com/photo-1627894005682-166e8687356a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+        alt: "Photo close up of a small clear round tea class with no handle holding clear green tea.",
+        credit: "Petr Sidorov"
     },
     {
         combination: ["Taipei", "Cake", "English Bulldog", "Mountains", "Tulip"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "English Breakfast Tea",
+        image: "https://images.unsplash.com/photo-1596710629144-6f6abf933384?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a saucer of black english breakfast tea on a white table surrounded by blush pink and purple flowers.",
+        credit: "Lidiya Pavlikova"
     },
     {
         combination: ["Taipei", "Pie", "Lab", "Forest", "Daisy"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Earl Grey Tea",
+        image: "https://images.unsplash.com/photo-1605618826115-fb9e775cfb40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZWFybCUyMGdyZXklMjB0ZWF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        alt: "Miska Sage",
+        credit: "Photo of a white cup filled with black tea and an earl grey tea bag next to a box and early grety tea bag wrapper on a wire shelf with green leaves of a plant in the top left corder and sides."
     },
     {
         combination: ["Taipei", "Cookie", "Pit Bull", "Beach", "Sunflower"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Bobba Milk Tea",
+        image: "https://images.unsplash.com/photo-1525803377221-4f6ccdaa5133?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2948&q=80",
+        alt: "Photo of two milk style glasses with black bobba tapioca pearls and brown milk tea on a wood counter.",
+        credit: "Rosalind Chang"
     },
     {
         combination: ["London", "Tart", "Chow Chow", "Winter Wonderland", "Rose"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Green Tea",
+        image: "https://images.unsplash.com/photo-1627894005682-166e8687356a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+        alt: "Photo close up of a small clear round tea class with no handle holding clear green tea.",
+        credit: "Petr Sidorov"
     },
     {
         combination: ["London", "Cake", "English Bulldog", "Mountains", "Tulip"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "English Breakfast Tea",
+        image: "https://images.unsplash.com/photo-1596710629144-6f6abf933384?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a saucer of black english breakfast tea on a white table surrounded by blush pink and purple flowers.",
+        credit: "Lidiya Pavlikova"
     },
     {
         combination: ["London", "Pie", "Lab", "Forest", "Daisy"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Earl Grey Tea",
+        image: "https://images.unsplash.com/photo-1605618826115-fb9e775cfb40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZWFybCUyMGdyZXklMjB0ZWF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        alt: "Miska Sage",
+        credit: "Photo of a white cup filled with black tea and an earl grey tea bag next to a box and early grety tea bag wrapper on a wire shelf with green leaves of a plant in the top left corder and sides."
     },
     {
         combination: ["London", "Cookie","Pit Bull", "Beach", "Sunflower"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Bobba Milk Tea",
+        image: "https://images.unsplash.com/photo-1525803377221-4f6ccdaa5133?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2948&q=80",
+        alt: "Photo of two milk style glasses with black bobba tapioca pearls and brown milk tea on a wood counter.",
+        credit: "Rosalind Chang"
     },
     {
         combination: ["Mexico City", "Tart", "Chow Chow", "Winter Wonderland", "Rose"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Green Tea",
+        image: "https://images.unsplash.com/photo-1627894005682-166e8687356a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+        alt: "Photo close up of a small clear round tea class with no handle holding clear green tea.",
+        credit: "Petr Sidorov"
     },
     {
         combination: ["Mexico City", "Cake", "English Bulldog", "Mountains", "Tulip"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "English Breakfast Tea",
+        image: "https://unsplash.com/photos/y_gKWLrw3N4",
+        alt: "Photo of a saucer of black english breakfast tea on a white table surrounded by blush pink and purple flowers.",
+        credit: "Lidiya Pavlikova"
     },
     {
         combination: ["Mexico City", "Pie", "Lab", "Forest", "Daisy"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Earl Grey Tea",
+        image: "https://images.unsplash.com/photo-1605618826115-fb9e775cfb40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZWFybCUyMGdyZXklMjB0ZWF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        alt: "Miska Sage",
+        credit: "Photo of a white cup filled with black tea and an earl grey tea bag next to a box and early grety tea bag wrapper on a wire shelf with green leaves of a plant in the top left corder and sides."
     },
     {
         combination: ["Mexico City", "Cookie", "Pit Bull", "Beach", "Sunflower", ],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Bobba Milk Tea",
+        image: "https://images.unsplash.com/photo-1525803377221-4f6ccdaa5133?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2948&q=80",
+        alt: "Photo of two milk style glasses with black bobba tapioca pearls and brown milk tea on a wood counter.",
+        credit: "Rosalind Chang"
     },
     {
         combination: ["Lagos", "Tart","Chow Chow", "Winter Wonderland", "Rose"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Green Tea",
+        image: "https://images.unsplash.com/photo-1627894005682-166e8687356a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+        alt: "Photo close up of a small clear round tea class with no handle holding clear green tea.",
+        credit: "Petr Sidorov"
     },
     {
-        combination: ["Lagos", "Pie", "English Bulldog", "Mountains", "Tulip"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        combination: ["Lagos", "Cake", "English Bulldog", "Mountains", "Tulip"],
+        text: "English Breakfast Tea",
+        image: "https://images.unsplash.com/photo-1596710629144-6f6abf933384?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        alt: "Photo of a saucer of black english breakfast tea on a white table surrounded by blush pink and purple flowers.",
+        credit: "Lidiya Pavlikova"
     },
     {
         combination: ["Lagos", "Tart", "Lab", "Forest", "Daisy"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Earl Grey Tea",
+        image: "https://images.unsplash.com/photo-1605618826115-fb9e775cfb40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZWFybCUyMGdyZXklMjB0ZWF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        alt: "Miska Sage",
+        credit: "Photo of a white cup filled with black tea and an earl grey tea bag next to a box and early grety tea bag wrapper on a wire shelf with green leaves of a plant in the top left corder and sides."
     },
     {
         combination: ["Lagos", "Cookie", "Pit Bull", "Beach", "Sunflower"],
-        text: "",
-        image: "",
-        alt: "",
-        credit: ""
+        text: "Bobba Milk Tea",
+        image: "https://images.unsplash.com/photo-1525803377221-4f6ccdaa5133?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2948&q=80",
+        alt: "Photo of two milk style glasses with black bobba tapioca pearls and brown milk tea on a wood counter.",
+        credit: "Rosalind Chang"
     }
   
 ]
