@@ -82,6 +82,10 @@ p{
 }
 
 .result-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: hotpink;
     border: solid hotpink 5px;
 
@@ -89,6 +93,9 @@ p{
 }
 
 .result-block img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 550px;
     overflow: hidden;
 }

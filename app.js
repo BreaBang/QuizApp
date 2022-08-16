@@ -369,8 +369,7 @@ const showAnswer = () => {
             chosenAnswers.includes(answer.combination[1])+
             chosenAnswers.includes(answer.combination[2])+
             chosenAnswers.includes(answer.combination[3])+
-            chosenAnswers.includes(answer.combination[4])+
-            chosenAnswers.includes(answer.combination[5])
+            chosenAnswers.includes(answer.combination[4])
             
          ) {
                 result = answer
