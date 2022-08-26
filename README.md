@@ -1,6 +1,6 @@
 # BuzzFeed Style Quiz App
 
-This is a BuzzFeed style quiz app. I thought it would be cool to add to client websites as a way to get email addresses and/or as additonal content for customers.
+This is a BuzzFeed style quiz app. Users can click on the answer squares and it will blank out the rest of the answers.
 
 **Link to project:** 
 https://teaquizapp.netlify.app/
@@ -14,6 +14,10 @@ https://teaquizapp.netlify.app/
 I used a tutorial by Ania Kubów to build the inital version of this app and then updated some of the css styling and the content.
 
 The quiz is made up of objects inside arrays. 
+
+## If I had more time
+
+In the future I would optimize it by requiring and email address input to get the quiz result and sending the result in an email so that content creators or business could add to their email list and provide value content at the same time. 
 
 ## Issues
 
