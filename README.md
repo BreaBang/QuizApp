@@ -4,7 +4,7 @@ This is a BuzzFeed style quiz app. I thought it would be cool to add to client w
 
 **Link to project:** coming soon
 
-![alt tag](image coming soon)
+![alt tag](https://github.com/BreaBang/QuizApp/blob/main/Screen%20Shot%202022-08-15%20at%205.13.32%20PM.png)
 
 ## How It's Made:
 
@@ -14,6 +14,6 @@ I used a tutorial by Ania Kubów to build the inital version of this app and the
 
 The quiz is made up of objects inside arrays. 
 
-## Lessons Learned:
+## Issues
 
-Coming Soon.
+There is something wrong with how it is generating the answers. I haven't figured it out yet but the selected answer choices and the results output are different that what is supposed to be the result. 
