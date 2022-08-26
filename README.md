@@ -2,7 +2,8 @@
 
 This is a BuzzFeed style quiz app. I thought it would be cool to add to client websites as a way to get email addresses and/or as additonal content for customers.
 
-**Link to project:** coming soon
+**Link to project:** 
+https://teaquizapp.netlify.app/
 
 ![alt tag](https://github.com/BreaBang/QuizApp/blob/main/Screen%20Shot%202022-08-15%20at%205.13.32%20PM.png)
 
